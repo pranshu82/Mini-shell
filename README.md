@@ -12,7 +12,7 @@ exit
 ```
 
 The following things are implemented in the minishell and there respective commands:
-*Firstly all external commands are executed some are:
+### Firstly all external commands are executed some are:
 	man
 	which
 	chsh
@@ -42,7 +42,7 @@ The following things are implemented in the minishell and there respective comma
 etc.
 For using this use simply as we using in linux terminal with all the parameters or flags as required.
 
-*Some internal command are also implemented in the minishell like:
+### Some internal command are also implemented in the minishell like:
 
 echo=>
  It can be used in the similar way as used the terminal. Various cases are handled like $ , " "    or simple string. Also the spaces are also handled like it is handled in the terminal.
@@ -97,12 +97,12 @@ this is also implemented which gives the environment variable.
 try: $USER
      $PATH
      
-*Single piping is also implemented 
+### Single piping is also implemented 
 which can work with all compatible internal and external commands like pwd, cat, grep and all other.
 try: pwd | wc -c
      pwd | grep h
 
-*input output redirection is also implemented
+### input output redirection is also implemented
 The various cases handled are:
 	<
 	>
@@ -110,7 +110,7 @@ The various cases handled are:
 	< >
 	< >>
 	
-Basic on the implementation.
+### Basic on the implementation.
 For making the assignment firstly input is taking line by line.
 then it is parsed using various parser and argumnents are obtained.
 the the arguments are passed to execute function which executes the required command.
