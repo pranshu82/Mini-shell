@@ -44,15 +44,15 @@ For using this use simply as we using in linux terminal with all the parameters 
 
 ### Some internal command are also implemented in the minishell like:
 
-echo=>
+* echo=>
  It can be used in the similar way as used the terminal. Various cases are handled like $ , " "    or simple string. Also the spaces are also handled like it is handled in the terminal.
  try:     echo $USER
- 	  echo abcd
- 	  echo "hello pranshu"
- 	  echo     "hello pranshu"   $HOME    abcd    $USER  "hi ih"    ji
+	  echo abcd
+	  echo "hello pranshu"
+	  echo     "hello pranshu"   $HOME    abcd    $USER  "hi ih"    ji
 or any general combination of these
  	  
-cd=>
+* cd=>
 Various implementations are also implemented.
 try:     cd <directory path>
          cd <dir1>/<dir2>/<dir3>/
