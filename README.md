@@ -1,18 +1,15 @@
-NAME : PRANSHU KANDOI
-ROLL NO: 200101086
-PROGRAMMING LANGUAGE USED: C
-OPERATING SYSTEM USED: LINUX
-CS242 ASSIGNMENT 2
+# Mini_Shell_using_C++
 
-To run the program:
--	gcc 200101086.c
--	./a.out
-	
-if executible file is already there then 
--	./a.out
+The command that has to be typed from command prompt to execute your program:
+```
+gcc shell.c
+./a.out
+```
 
 to exit from the minishell type
--	exit
+```
+exit
+```
 
 The following things are implemented in the minishell and there respective commands:
 *Firstly all external commands are executed some are:
