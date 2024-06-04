@@ -63,36 +63,36 @@ try:     cd <directory path>
          cd -
          cd
 
-printenv=>
+* printenv=>
 Basically five environment as told were implemented like PATH,HOME,USER,SHELL,TERM.
 try:     printenv
          printenv HOME
          printenv PATH USER TERM
 
-setenv=>
+* setenv=>
 Set the environment variable.
 try: setenv USER = kandoi
      setenv PS1 = %
 
-history=>
+* history=>
 Shows the history.
 can try: history
 
-help=>
+* help=>
 shows basic help.
 try: help
 
-pwd=>
+* pwd=>
 shows current working directory.
 try: pwd
 
-exit=>
+* exit=>
 exit the minishell.
 try: exit
      quit
      X
 
-$VAR=>
+* $VAR=>
 this is also implemented which gives the environment variable.
 try: $USER
      $PATH
